@@ -4,7 +4,7 @@
   "description": "GitHub activity visualization using Remotion",
   "scripts": {
     "start": "remotion preview src/index.ts",
-    "build:static": "remotion render src/index.ts GitHubSummaryStatic out/github-summary.mp4",
+    "build:static": "remotion render src/index.ts DetailedActivity out/github-summary.mp4",
     "build:activity": "remotion render src/index.ts GitHubActivity out/github-activity.mp4",
     "build": "npm run build:static && npm run build:activity",
     "upgrade": "remotion upgrade",
